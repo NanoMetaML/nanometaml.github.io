@@ -1,3 +1,107 @@
+:root,
+:root.purdue-theme {
+    --bg-color: #FFFFFF;
+    --primary_theme: #cfb991;
+    --text-color: #000000;
+    --text2-color: #FFFFFF;
+    --accent-color: #8e6f3e;
+    --accent2-color: #DAAA00;
+    --accent3-color: #EBD99F;
+}
+
+:root.harvard-theme {
+    --bg-color: #FFFFFF;
+    --primary_theme: #EB001B;
+    --text-color: #000000;
+    --accent-color: #A51C30;
+    --accent2-color: #3E6F7D;
+    --accent3-color: #F8C21C;
+
+}
+
+:root.berkeley-theme {
+    --bg-color: #FFFFFF;
+    --primary_theme: #003262;
+    --text-color: #000000;
+    --accent-color: #003262;
+    --accent2-color: #003262;
+    --accent3-color: #003262;
+}
+
+.nav-bar {
+    float: right;
+    display: block;
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+
+    background-color: var(--bg-color);
+}
+
+.nav-bar li {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 1px;
+    border: var(--accent3-color) solid;
+    border-radius: 10px;
+    color: var(--text-color);
+    background-color: var(--accent3-color);
+}
+
+.nav-bar li:hover {
+    background-color: var(--accent-color);
+    border: var(--accent-color) solid;
+    color: var(--text2-color);
+}
+
+.nav-bar li.active {
+    background-color: var(--accent-color);
+    border: var(--accent-color) solid;
+    color: var(--text2-color);
+}
+
+.nav-bar li a {
+    display: block;
+    color: var(--text-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+.nano-button {
+    background-color: var(--primary_theme);
+    color: var(--text-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition-duration: 0.4s;
+    width: clamp(50px, 20%, 100px);
+    height: clamp(50px, 50%, 100px);
+    margin: auto;
+}
+
+.nano-button:hover {
+    border: 1px solid gray;
+    background-color: var(--accent-color);
+    color: var(--text2-color);
+
+}
+
+
 p {
     padding: 20px;
     border: 1px solid;
@@ -5,15 +109,4 @@ p {
 
 h3 {
     border-bottom: 1px solid gray;
-}
-
-.nano-button {
-    transition-duration: 0.4s;
-}
-
-.nano-button:hover {
-    border: 1px solid gray;
-    color: gold;
-    background-color: gray;
-
 }
