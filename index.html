@@ -6,67 +6,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="stylesheets/nanoml.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#includedContent").load("members.html");
+      $("#navbar").load("nav-bar.html");
+    });
+  </script>
 </head>
 
 <body>
+
   <!-- Navbar (sit on top) -->
-  <div class="nav-bar">
-    <ul>
-      <li>
-        <img src="imgs/test.png" alt="NanoML Logo" style="height: 50px; border-radius: 5px; ">
-      </li>
-      <li>
-        <a href="#home">Nano<b>ML</b> Team </a>
-      </li>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#team">Team</a>
-      </li>
-      <li>
-        <a href="#projects">Projects</a>
-      </li>
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
+  <div id="navbar"></div>
   <!-- Header -->
 
   <!-- Project Section -->
-  <div id="about">
-    <h3 class="nano-button">About</h3>
+  <div alt="about">
+    <h2 class="section-marker">About</h2>
+    <p>
+      Human history is marked by discovery of new materials. First we had the stone age, then the bronze age, and now we
+      are in the silicon age. The NanoML team at Purdue University is bringing about the quantum age with the assistance
+      of bleeding edge machine learning algorithms. The group is composed of undergraduate, graduate, and postdoctoral fellows of the
+      Purdue NanoMeta and Purdue Center for Quantum Science and Engineering Institute (PQSEI). In collaboration with
+      PQSEI, the Elmore Center for Emerging Frontiers Center and the Quantum Science Center at Oak Ridge National
+      Laboratory, the NanoML group is dedicated to bringing about the next generation of quantum and AI algorithms for the study of new pysics. We
+      take a first principles approach to machine learning and quantum computing. Starting from the foundational
+      mathematics of statistical learning, generative modeling, and theoretical physics, we build new approaches by
+      having a solid understanding of the mathematics and physics behind the algorithms.
+
+    </p>
+    <p>
+      Our group is currently working on the following projects:
+    <ul>
+      <li>Quantum Optimization for Inverse Design</li>
+      <li>Quantum Generative Modeling</li>
+      <li>Generative Modeling for Material Design</li>
+      <li>Diffusion Models for Statistical Physics</li>
+      <li>Computer Vision for Material Characterization</li>
+    </ul>
+    </p>
   </div>
 
+  <h2 alt="#team" class="section-marker">Team</h2>
 
-  <div style="max-width:1564px">
+  <div id="includedContent"></div>
 
-    <div>
-      <div>
-        <div>Vea Iyer: RA</div>
-        <img src="imgs/test.png" alt="House" style="width:100%">
-      </div>
-    </div>
-  </div>
+  <h2 alt="projects" class="section-marker">Projects</h2>
 
-  </div>
-
-  <div style="max-width:1564px">
-
-    <!-- Project Section -->
-    <div id="projects">
-      <h3>Projects</h3>
-    </div>
-
-  </div>
-  <div style="max-width:1564px">
-
-    <!-- Project Section -->
-    <div id="contact">
-      <h3>Contact</h3>
-    </div>
-
+  <h2 alt="contact" class="section-marker">Contact</h2>
+  <div class="contact">
+    <p>
+      <b> Blake Wilson</b>
+      <br> Purdue University
+      <br> 525 Northwestern Avenue
+      <br> West Lafayette, IN 47907
+      <br>
+      <br> Email: <a href="mailto: wilso692@purdue.edu">Contact by Email</a>
+    </p>
   </div>
 </body>
 

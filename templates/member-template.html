@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Purdue Nanometa Machine Learning Team</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../stylesheets/nanoml.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#navbar").load("../nav-bar.html");
+        });
+    </script>
+</head>
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div id="navbar"></div>
+    <!-- Header -->
+
+    <!-- Profile Section -->
+    <div class="tm-personal-container">
+        <div class="tm-profile-container">
+            <div class="tm-profile-name">
+                    {{user.fullname}}
+            </div>
+                <img src="../imgs/{{user.imgname}}" class="tm-profile-image">
+            <div class="tm-profile-bio">
+
+                    <b class="bio-left">Name</b> <b class="bio-right">{{user.fullname}}</b>
+                <b class="bio-left">Email:</b> <b class="bio-right">{{user.email}}</b>
+                    <b class="bio-left">Personal Website</b> <a href={{user.href}} text-decoration="none"
+                        target="_blank" rel="noopener noreferrer" class="bio-right">{{user.href}}</a>
+                    <b class="bio-left">Year:</b> <b class="bio-right">{{user.href}}</b>
+                    <b class="bio-left">Major:</b> <b class="bio-right">{{user.major}}</b>
+                <br>
+
+                <div class="contact">
+                    <p>
+                            <b> {{user.fullname}}</b>
+                        <br> Purdue University
+                        <br> 525 Northwestern Avenue
+                        <br> West Lafayette, IN 47907
+                        <br>
+                            <br> Email: <a href="mailto: {{user.email}}">Contact by Email</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="tm-profile-excerpt">
+            <div class="tm-profile-name">
+                About Me
+            </div>
+            <div class="tm-" </div>
+
+            </div>
+
+            <h2 alt="about" class="section-marker">About</h2>
+            {{user.about}}
+            <h2 alt="about" class="section-marker">C.V.</h2>
+            {{user.cv}}
+            <h2 alt="contact" class="section-marker">Contact</h2>
+            <div class="contact">
+                <p>
+                    <b> {{user.fullname}}</b>
+                    <br> Purdue University
+                    <br> 525 Northwestern Avenue
+                    <br> West Lafayette, IN 47907
+                    <br>
+                    <br> Email: <a href="mailto: {{user.email}}">Contact by Email</a>
+                </p>
+            </div>
+</body>
+
+</html>
