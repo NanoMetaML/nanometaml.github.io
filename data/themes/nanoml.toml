@@ -1,0 +1,37 @@
+# Theme metadata
+name = "NanoML Theme"
+
+[light]
+  # Primary
+  primary = "#5f5f5f"
+
+  # Links
+  link_hover = "#cfb991"
+  link = "#8e6f3e"
+
+  # Menu
+  menu_primary = "#ffffff"
+  menu_text = "#333333"
+  menu_text_active = "#cfb991"
+  menu_title = "#333333"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(255, 255, 255)"
+[dark]
+  # Primary
+  primary = "#5f5f5f"
+
+  # Links
+  link_hover = "#cfb991"
+  link = "#8e6f3e"
+
+  # Menu
+  menu_primary = "#ffffff"
+  menu_text = "#333333"
+  menu_text_active = "#cfb991"
+  menu_title = "#333333"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(255, 255, 255)"

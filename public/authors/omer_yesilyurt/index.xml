@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Omer Yesilyurt | NanoML Team</title>
+    <link>https://example.com/authors/omer_yesilyurt/</link>
+      <atom:link href="https://example.com/authors/omer_yesilyurt/index.xml" rel="self" type="application/rss+xml" />
+    <description>Omer Yesilyurt</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://example.com/authors/omer_yesilyurt/avatar_hu654d716c055bbbd9ae51c33aaa62e84c_456433_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Omer Yesilyurt</title>
+      <link>https://example.com/authors/omer_yesilyurt/</link>
+    </image>
+    
+  </channel>
+</rss>
