@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brandon Triplett | NanoML Team</title>
+    <link>https://example.com/authors/brandon_triplett/</link>
+      <atom:link href="https://example.com/authors/brandon_triplett/index.xml" rel="self" type="application/rss+xml" />
+    <description>Brandon Triplett</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://example.com/authors/brandon_triplett/avatar_hu05eca6f4c5b865439e40e79593893c78_5096086_270x270_fill_lanczos_center_3.png</url>
+      <title>Brandon Triplett</title>
+      <link>https://example.com/authors/brandon_triplett/</link>
+    </image>
+    
+  </channel>
+</rss>

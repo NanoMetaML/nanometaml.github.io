@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jaxon Pottle | NanoML Team</title>
+    <link>https://example.com/authors/jaxon_pottle/</link>
+      <atom:link href="https://example.com/authors/jaxon_pottle/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jaxon Pottle</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://example.com/authors/jaxon_pottle/avatar_hu83ba48ce64a4663c7fd2780a2fe695ab_517486_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Jaxon Pottle</title>
+      <link>https://example.com/authors/jaxon_pottle/</link>
+    </image>
+    
+  </channel>
+</rss>
