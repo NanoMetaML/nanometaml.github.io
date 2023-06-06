@@ -11,28 +11,27 @@ superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
 role:
+- Research Assistant
 
 # Organizations/Affiliations
 organizations:
-- name: 
+- name: Purdue University
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: I am a sophomore studying computer science at Purdue University. My research interest is in using machine learning to solve optimization problems.
 
 # List each interest with a dash
 interests:
-- Interest 1
-- Interest 2
+- Machine Learning
+- Mathematics
+- Computer Sciencce
 
 education:
   courses:
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
+  - course: Bachelors in Computer Science
+    institution: Purdue University
+    year: 2026
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -58,7 +57,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "mbezick@purdue.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
