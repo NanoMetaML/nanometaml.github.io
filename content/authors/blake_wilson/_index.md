@@ -58,5 +58,8 @@ highlight_name: false
 user_groups:
   - Graduate Students 
 ---
+As a Ph.D. student in Electrical and Computer Engineering at Purdue University, I am honored to be a Research Assistant at the highly esteemed Quantum Science Center at Oak Ridge National Lab and Purdue University. My advisors, Sasha Boltasseva, Sabre Kais,  Alex Kildishev, and Vlad Shalaev, are leaders in their field, and I am privileged to have the opportunity to learn from and work with them. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research focuses on applying quantum-classical optimization and machine learning techniques to the design, fabrication, and characterization of advanced quantum and nanophotonic devices. I am also deeply interested in graph theory, generative modeling and quantum information, and their applications in engineering and the analysis of optimization algorithms.
+
+I am leading several research projects in collaboration with Purdue, Oak Ridge, and QuEra computing. However, my most rewarding work is in mentoring. I am so proud of everyone I’ve had the opportunity to mentor, and I hope they go off and do more than I can. I lead the NanoML team along with Yuheng Chen and it's been one of the most rewarding experiences of my academic career.  
