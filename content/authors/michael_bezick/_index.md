@@ -10,8 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
-- Research Assistant
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
