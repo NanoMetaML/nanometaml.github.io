@@ -52,6 +52,8 @@ education:
 #  link: https://github.com/USERNAME
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+
+social:
  - icon: cv
    icon_pack: ai
    link: https://github.com/NanoMetaML/nanometaml.github.io/files/11668006/Michael.Bezick.Resume.-.General.pdf
