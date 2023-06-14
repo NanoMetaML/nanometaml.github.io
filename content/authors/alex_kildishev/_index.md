@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: PI
 
 # Organizations/Affiliations
 organizations:
@@ -22,8 +22,8 @@ bio:
 
 # List each interest with a dash
 interests:
-- Interest 1
-- Interest 2
+- Computational Electromagnetics
+- Machine Learning
 
 education:
   courses:

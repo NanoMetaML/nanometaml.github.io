@@ -10,47 +10,38 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Research Assistant
 
 # Organizations/Affiliations
 organizations:
-- name: 
-  url: ""
+- name: Purdue University
+  url: "https://engineering.purdue.edu/ECE"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: My research interests include deep learning and quantum computing
 
 # List each interest with a dash
 interests:
-- Interest 1
-- Interest 2
+- Nanotechnology
+- Machine Learning
 
 education:
   courses:
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
-  - course: Title course 1
-    institution: Name of Institution
-    year: 2012
+  - course: Bachelor of Science in Electrical Engineering (BSEE)
+    institution: Purdue University
+    year: 2026 (expected)
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/USERNAME
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.com/citations?user=PERSON-ID
 - icon: github
   icon_pack: fab
-  link: https://github.com/USERNAME
+  link: https://github.com/Pencils113
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/rohan-ojha-4138a0218/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -58,7 +49,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "ojhar@purdue.edu"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
