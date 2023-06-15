@@ -47,7 +47,7 @@ social:
 - icon: envelope
   icon_pack: fas
   link: "mailto:singh988@purdue.edu"  # For a direct email link, use "mailto:test@example.org".
--icon: linkedin
+- icon: linkedin
   icon_pack: fab
   link: https://linkedin.com/in/daksh-kumar-singh
 # - icon: google-scholar
