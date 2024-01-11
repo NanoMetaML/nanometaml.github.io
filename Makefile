@@ -17,7 +17,7 @@ update_links: $(VENV)
 	@rm -rf "$(PWD)/docs/source/polytensor"
 	@rm -rf "$(PWD)/docs/source/mcmc"
 	@cp -r "$(PWD)/packages/polytensor/docs/source" "$(PWD)/docs/source/polytensor" 
-	@cp -r "$(PWD)/packages/mcmc/docs/source" "$(PWD)/docs/source/mcmc" 
+	#@cp -r "$(PWD)/packages/mcmc/docs/source" "$(PWD)/docs/source/mcmc" 
 
 .PHONY: .env
 $(VENV): requirements.txt
