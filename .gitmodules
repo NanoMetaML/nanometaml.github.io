@@ -1,0 +1,6 @@
+[submodule "packages/polytensor"]
+	path = packages/polytensor
+	url = https://github.com/btrainwilson/polytensor.git
+[submodule "packages/mcmc"]
+	path = packages/mcmc
+	url = https://github.com/nanometaml/mcmc.git
