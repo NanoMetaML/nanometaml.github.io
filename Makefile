@@ -5,9 +5,8 @@ TENV = .tenv
 BIN = $(VENV)/bin
 TIN = $(TENV)/bin
 
-all: doc .env
+all: 
 
-.PHONY: .env
 git_docs:
 	@cd packages && git submodule add https://github.com/btrainwilson/polytensor.git
 	@cd packages && git submodule add https://github.com/nanometaml/mcmc.git
@@ -17,6 +16,7 @@ update_links: $(VENV)
 	@ln -sf "$(PWD)/packages/polytensor/docs/source" "$(PWD)/docs/source/polytensor" 
 	@ln -sf "$(PWD)/packages/mcmc/docs/source" "$(PWD)/docs/source/mcmc" 
 
+.PHONY: .env
 $(VENV): requirements.txt
 	$(PY) -m venv $(VENV)
 	$(BIN)/pip install --upgrade -r requirements.txt
