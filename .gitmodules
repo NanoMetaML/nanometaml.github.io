@@ -1,7 +1,7 @@
 [submodule "packages/mcmc"]
-	path = packages/mcmc
+	path = docs/source/mcmc
 	url = https://github.com/nanometaml/mcmc.git
 	branch = pt_migrate
 [submodule "packages/polytensor"]
-	path = packages/polytensor
+	path = docs/source/polytensor
 	url = https://github.com/btrainwilson/polytensor.git

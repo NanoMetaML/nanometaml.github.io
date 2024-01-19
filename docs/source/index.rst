@@ -10,8 +10,8 @@ Welcome to NanoMetaML's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   polytensor/index
-   mcmc/index
+   polytensor/docs/source/index
+   mcmc/docs/source/index
 
 
 

@@ -13,22 +13,13 @@ POLYBUILD = $(PWD)/docs/source/polytensor
 all: update_links 
 
 git_docs:
-	@cd packages && git submodule add https://github.com/btrainwilson/polytensor.git
-	@cd packages && git submodule add https://github.com/nanometaml/mcmc.git
+	@git submodule update --recursive
 
 .PHONY: doc
 doc: $(VENV)
 	@cd docs && make clean
-	@$(BIN)/sphinx-build -M html "$(MCMCSRC)" "$(MCMCBUILD)"
-	@$(BIN)/sphinx-build -M html "$(POLYSRC)" "$(POLYSRC)"
+	@$(BIN)/sphinx-build -M html docs/source docs/build
 
-.PHONY: update_links
-update_links: $(VENV)
-	@echo "Updating links"
-	@rm -rf "$(PWD)/docs/source/polytensor"
-	@rm -rf "$(PWD)/docs/source/mcmc"
-	@cp -r "$(PWD)/packages/polytensor/docs/source/" "$(PWD)/docs/source/polytensor"
-	@cp -r "$(PWD)/packages/mcmc/docs/source" "$(PWD)/docs/source/mcmc" 
 
 .PHONY: .env
 $(VENV): requirements.txt
