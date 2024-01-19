@@ -11,6 +11,7 @@ Welcome to NanoMetaML's documentation!
    :caption: Contents:
 
    polytensor/index
+   mcmc/index
 
 
 
